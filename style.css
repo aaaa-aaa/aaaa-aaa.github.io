@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 3em;
+  border: 2px solid #000000;
+  background-color: #AAAAAA;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  padding: 2px 5px 2px 5px;
+  margin: 5px 5px 5px 5px;
+  font-size: 2em;
+  float: right;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  float: left;
+}
+.content {
+  height: 200px;
+}
+
+.grass .content, .grass h2 {
+  border: 2px solid #00FF00;
+  background-color: #90FF90;
+}
+
+.fire .content, .fire h2 {
+  border: 2px solid #FF0000;
+  background-color: #FF9090;
+}
+
+.water .content, .water h2 {
+  border: 2px solid #0000FF;
+  background-color: #9090FF;
+}
+
+@media (min-width: 990px) {
+.half {
+  width: 50%;
+}
+.full {
+  width: 100%;
+}
+}
+
+@media (min-width: 993px) {
+.container {
+  width: 33.33%;
+}
+}
