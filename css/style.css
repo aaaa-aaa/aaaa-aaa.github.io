@@ -18,6 +18,13 @@ h2 {
   float: right;
 }
 
+h3 {
+  padding: 2px 5px 2px 5px;
+  margin: 5px 5px 5px 5px;
+  font-size: 2em;
+  text-align: center;
+}
+
 p {
   clear: right;
 }
