@@ -14,6 +14,9 @@ h1 {
 h2 {
   padding: 2px 5px 2px 5px;
   margin: 5px 5px 5px 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
   font-size: 2em;
   float: right;
 }
@@ -21,6 +24,9 @@ h2 {
 h3 {
   padding: 2px 5px 2px 5px;
   margin: 5px 5px 5px 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
   font-size: 2em;
   text-align: center;
 }
@@ -38,22 +44,28 @@ img {
 
 .container {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   float: left;
 }
 
-.grass .content, .grass h2 {
-  border: 2px solid #00FF00;
+.content {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.grass {
+  border-color: #00FF00;
   background-color: #90FF90;
 }
 
-.fire .content, .fire h2 {
-  border: 2px solid #FF0000;
+.fire {
+  border-color: #FF0000;
   background-color: #FF9090;
 }
 
-.water .content, .water h2 {
-  border: 2px solid #0000FF;
+.water {
+  border-color: #0000FF;
   background-color: #9090FF;
 }
 
